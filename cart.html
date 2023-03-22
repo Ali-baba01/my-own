@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> All product shopin web</title>
+    <link rel="stylesheet" href="f.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <div class="containet">
+
+        <div class="navbar">
+            <div class="=logo">
+             <a href="f.html">   <img src="Images/logo1.jpeg" width="125px"></a>
+
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="f.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Images/cart.png" width="30px" height="30px"></a>
+            <img src="Images/menu icon.png" class="menu-icon" onclick=" menutoggle()">
+        </div>
+
+    </div>
+    <!------cart item details----->
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th> Product</th>
+                <th> Quantity</th>
+                <th> Subtotal</th>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Images/b3.jpg" >
+                        <div>
+                            <p> bath room chappal</p>
+                            <small> price:pkr350.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"> </td>
+                <td>Pkr 350.00</td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Images/b3.jpg" >
+                        <div>
+                            <p> bath room chappal</p>
+                            <small> price:pkr350.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"> </td>
+                <td>Pkr 350.00</td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Images/sr2.jpg" >
+                        <div>
+                            <p> SHIRt</p>
+                            <small> price:pkr500.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"> </td>
+                <td>Pkr 500.00</td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Images/sk1.jpg" >
+                        <div>
+                            <p> shoze</p>
+                            <small> price:pkr250.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"> </td>
+                <td>Pkr 250.00</td>
+
+
+            </tr>
+
+        </table>
+
+        <div class="total-price">
+
+            <table>
+
+                <tr>
+             
+                    <td>Subtotal</td>
+                    <td> pkr:1200.00</td>
+                </tr>
+                <tr>
+             
+                    <td>Tax</td>
+                    <td> pkr:150.00</td>
+                </tr>
+                
+                <tr>
+             
+                    <td>Total</td>
+                    <td> pkr:1350.00</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <!------footer----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>
+                        Download our app
+                    </h3>
+                    <p>Download App for Androaid
+                        and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images/playstore.png">
+                        <img src="Images/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/logo1.jpeg">
+                    <p>Our purpose is to
+                        sustainably make
+                        the pleasure benefits of supports
+                        accessibly to the many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>
+                        useful Links
+                    </h3>
+                    <ul>
+                        <li> coupons</li>
+                        <li> Blog Post</li>
+                        <li> Return poicy</li>
+                        <li> join affiliates</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>
+                        Follow us
+                    </h3>
+                    <ul>
+                        <li> facebook</li>
+                        <li> Twitters</li>
+                        <li> instrgram</li>
+                        <li>youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright KamQimat.com</p>
+        </div>
+    </div>
+    <!------ js for toggle menu------>
+    <script>var menuitems = document.getElementByid("menuitem")
+        menuitems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
